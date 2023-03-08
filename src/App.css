@@ -30,9 +30,10 @@
   border-radius: 50%;
 }
 
-.name {
+.name span {
   color: azure;
 }
+
 
 hr {
   height: 2px;
@@ -54,10 +55,17 @@ hr {
   margin: 2vh;
   display: flex;
   flex-direction: row;
-  background-color: #aab2ff;
+  background-color: #9ba0e9;
   border-radius: 20px;
   padding: 1rem;
+
 }
+
+.container1:hover {
+   box-shadow: 0 0 10px rgb(49, 51, 55);
+   transition: 0.5s;
+}
+
 
 .info {
   flex-direction: column;
@@ -71,14 +79,15 @@ hr {
 .progress-bar {
   background-color: white;
   width: 250px;
-  height: 20px;
+  height: 10px;
   border-radius: 10px;
 }
 .progress-bar div {
-  height: 20px;
+  height: 10px;
   border-radius: 10px;
   width: 0%;
 }
+
 .c {
   background-color: #84ffc9;
   animation: c 1s linear forwards;
@@ -95,10 +104,14 @@ hr {
   background-color: #84ffc9;
   animation: python 1s linear forwards;
 }
+.js {
+  background-color: #84ffc9;
+  animation: js 1s linear forwards;
+}
 
 @keyframes c {
   100% {
-    width: 60%;
+    width: 50%;
   }
 }
 @keyframes html {
@@ -113,8 +126,17 @@ hr {
 }
 @keyframes python {
   100% {
+    width: 40%;
+  }
+}
+@keyframes js {
+  100% {
     width: 45%;
   }
+}
+
+.bar-info{
+  font-weight: 300;
 }
 
 .title {
@@ -129,6 +151,11 @@ hr {
 
 .head {
   gap: 5rem;
+}
+
+.id{
+  font-weight: 300;
+  display: block;
 }
 
 @media screen and (max-width: 610px) {
