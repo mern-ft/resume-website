@@ -1,0 +1,138 @@
+.App {
+  height: auto;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #84ffc9, #aab2ff, #eca0ff);
+  /* background: linear-gradient( #03001e, #7303c0, #ec38bc, #fdeff9); */
+}
+
+.container {
+  height: auto;
+  width: 60vw;
+  background-color: rgba(225, 218, 222, 0.4);
+  border-radius: 15px;
+  box-shadow: 0 0 4rem #000000;
+  transition-duration: 1s;
+}
+.container:hover {
+  transition-duration: 1s;
+  box-shadow: 0 0 4rem azure;
+}
+
+.pic {
+  object-fit: cover;
+  object-position: top;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+
+.name {
+  color: azure;
+}
+
+hr {
+  height: 2px;
+  margin: 10px;
+  border-radius: 100px;
+}
+
+.table {
+  width: 90%;
+  text-align: center;
+}
+
+.table td {
+  color: aliceblue;
+  font-weight: 500;
+}
+
+.container1 {
+  margin: 2vh;
+  display: flex;
+  flex-direction: row;
+  background-color: #aab2ff;
+  border-radius: 20px;
+  padding: 1rem;
+}
+
+.info {
+  flex-direction: column;
+}
+.domain {
+  text-indent: 5px;
+  font-size: medium;
+}
+
+/*progress bar*/
+.progress-bar {
+  background-color: white;
+  width: 250px;
+  height: 20px;
+  border-radius: 10px;
+}
+.progress-bar div {
+  height: 20px;
+  border-radius: 10px;
+  width: 0%;
+}
+.c {
+  background-color: #84ffc9;
+  animation: c 1s linear forwards;
+}
+.html {
+  background-color: #84ffc9;
+  animation: html 1s linear forwards;
+}
+.css {
+  background-color: #84ffc9;
+  animation: css 1s linear forwards;
+}
+.python {
+  background-color: #84ffc9;
+  animation: python 1s linear forwards;
+}
+
+@keyframes c {
+  100% {
+    width: 60%;
+  }
+}
+@keyframes html {
+  100% {
+    width: 75%;
+  }
+}
+@keyframes css {
+  100% {
+    width: 65%;
+  }
+}
+@keyframes python {
+  100% {
+    width: 45%;
+  }
+}
+
+.title {
+  width: 30%;
+  text-transform: uppercase;
+}
+
+.content {
+  width: 70%;
+  text-align: justify;
+}
+
+.head {
+  gap: 5rem;
+}
+
+@media screen and (max-width: 610px) {
+  .container {
+    width: 100vw;
+  }
+}
