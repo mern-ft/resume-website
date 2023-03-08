@@ -7,9 +7,15 @@ import { BsTools } from "react-icons/bs";
 import { GiSkills } from "react-icons/gi";
 import { BiBook, BiRename } from "react-icons/bi";
 import { BsPersonVcard, BsPersonAdd } from "react-icons/bs";
-import { FaLinkedin, FaGithub, FaInstagram, FaHtml5, FaCss3Alt, FaPython } from "react-icons/fa";
+import {
+  FaLinkedin,
+  FaGithub,
+  FaInstagram,
+  FaHtml5,
+  FaCss3Alt,
+  FaPython,
+} from "react-icons/fa";
 import { CgPacman } from "react-icons/cg";
-
 
 function App() {
   return (
@@ -21,21 +27,19 @@ function App() {
           </div>
           <div className="info">
             <h1 className="name">
-              <BiRename />:<span> SAGUL</span>
+              <BiRename /> :<span> SAGUL</span>
             </h1>
             <h1 className="domain">
-              <span>
-                <GrDomain />
-              </span>
-              : FRONT-END DEVELOPER
+                <GrDomain /> :<span> FRONT-END DEVELOPER</span>
             </h1>
           </div>
         </div>
         <hr></hr>
+
         {/* about */}
         <div className="container1">
           <h4 className="title">
-            About <BsPersonVcard />:
+            About <BsPersonVcard /> :
           </h4>
           <div className="content">
             As a front-end web developer, I specialize in the design and
@@ -43,11 +47,12 @@ function App() {
             strong understanding of HTML, CSS, and JavaScrip.
           </div>
         </div>
+
         {/* QUALIFICATION BOX CONTAINER1*/}
         <div className="container1">
           {/* <div className="content"> */}
           <h4 className="title">
-            QUALIFICATION <BiBook />:
+            QUALIFICATION <BiBook /> :
           </h4>
           <div className="content">
             <table className="table">
@@ -74,10 +79,11 @@ function App() {
             </table>
           </div>
         </div>
+
         {/* SKILL  */}
         <div className="container1">
           <h4 className="title">
-            SKILL'S <GiSkills />:
+            SKILL'S <GiSkills /> :
           </h4>
           <div className="content">
             <ul>
@@ -117,15 +123,16 @@ function App() {
             </ul>
             <div className="content">
               <span className="bar-info">
-                The above bar represents my skill level{" "}
+                The above bar represents my skill level
               </span>
             </div>
           </div>
         </div>
+
         {/* TOOLS */}
         <div className="container1">
           <h4 className="title">
-            TOOL'S <BsTools />:
+            TOOL'S <BsTools /> :
           </h4>
           <div className="content">
             <ul>
@@ -148,10 +155,11 @@ function App() {
             </ul>
           </div>
         </div>
+
         {/* certification */}
         <div className="container1">
           <h4 className="title">
-            WORKSHOP & CERTIFICATION <GrWorkshop />:
+            WORKSHOP & CERTIFICATION <GrWorkshop /> :
           </h4>
           <div className="content">
             <ul>
@@ -163,7 +171,7 @@ function App() {
         </div>
         <div className="container1">
           <h4 className="title">
-            PROJECTS <GrProjects />:
+            PROJECTS <GrProjects /> :
           </h4>
           <div className="content">
             <ul>
@@ -172,21 +180,40 @@ function App() {
             </ul>
           </div>
         </div>
+
+        {/* Language */}
         <div className="container1">
           <h4 className="title">
-            LANGUAGE'S KNOWN <GrLanguage />:
+            LANGUAGE'S KNOWN <GrLanguage /> :
           </h4>
-          <ul>
-            <li>English</li>
-            <li>Tamil</li>
-            <li>Hindi</li>
-            <li>Urdu</li>
-          </ul>
+          <div className="content">
+            <ul>
+              <li>English</li>
+              <div className="progress-bar">
+                <div className="english">{/* <span>60%</span> */}</div>
+              </div>
+              <li>Tamil</li>
+              <div className="progress-bar">
+                <div className="tamil">{/* <span>60%</span> */}</div>
+              </div>
+              <li>Hindi</li>
+              <div className="progress-bar">
+                <div className="hindi">{/* <span>60%</span> */}</div>
+              </div>
+              <li>Urdu</li>
+              <div className="progress-bar">
+                <div className="urdu">{/* <span>60%</span> */}</div>
+              </div>
+            </ul>
+            <span className="bar-info">
+              The above bar represents my language level
+            </span>
+          </div>
         </div>
 
         <div className="container1">
           <h4 className="title">
-            SOCIAL'S <BsPersonAdd />:
+            SOCIAL'S <BsPersonAdd /> :
           </h4>
           <ul>
             <li>
@@ -196,7 +223,8 @@ function App() {
               Git-hub <FaGithub /> <span className="id"> @sagul-09 </span>
             </li>
             <li>
-              Instagram <FaInstagram /> <span className="id"> @detail_snap_ </span>
+              Instagram <FaInstagram />{" "}
+              <span className="id"> @detail_snap_ </span>
             </li>
           </ul>
         </div>

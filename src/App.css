@@ -75,7 +75,7 @@ hr {
   font-size: medium;
 }
 
-/*progress bar*/
+/* skills progress bar*/
 .progress-bar {
   background-color: white;
   width: 250px;
@@ -134,6 +134,48 @@ hr {
     width: 45%;
   }
 }
+
+/* language progress bar*/
+
+.english {
+  background-color: #84ffc9;
+  animation: c 1s linear forwards;
+}
+.tamil {
+  background-color: #84ffc9;
+  animation: html 1s linear forwards;
+}
+.hindi {
+  background-color: #84ffc9;
+  animation: css 1s linear forwards;
+}
+.urdu {
+  background-color: #84ffc9;
+  animation: python 1s linear forwards;
+}
+
+
+@keyframes english {
+  100% {
+    width: 95%;
+  }
+}
+@keyframes tamil {
+  100% {
+    width: 50%;
+  }
+}
+@keyframes hindi {
+  100% {
+    width: 85%;
+  }
+}
+@keyframes urdu {
+  100% {
+    width: 50%;
+  }
+}
+
 
 .bar-info{
   font-weight: 300;
