@@ -159,7 +159,7 @@ function App() {
         {/* certification */}
         <div className="container1">
           <h4 className="title">
-            WORKSHOP & CERTIFICATION <GrWorkshop /> :
+            WORKSHOP & CERTIFICATION <GrWorkshop />:
           </h4>
           <div className="content">
             <ul>
