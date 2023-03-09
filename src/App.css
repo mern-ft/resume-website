@@ -5,8 +5,8 @@
   align-items: center;
   justify-content: center;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  /* background: linear-gradient(to right, #84ffc9, #aab2ff, #eca0ff); */
-  background: linear-gradient(#03001e, #7303c0, #ec38bc, #f7b4e4);
+  background: linear-gradient(to right, #84ffc9, #aab2ff, #eca0ff);
+  /* background: linear-gradient(#03001e, #7303c0, #ec38bc, #f7b4e4); */
 }
 
 .container {
@@ -46,8 +46,8 @@ hr {
 }
 
 .table td {
-  color: aliceblue;
-  font-weight: 500;
+  color: rgb(0, 0, 0);
+  font-weight: 350;
 }
 
 .container1 {
@@ -75,7 +75,7 @@ hr {
 
 /* skills progress bar*/
 .progress-bar {
-  background-color: white;
+  background-color: rgb(184, 174, 174);
   width: 250px;
   height: 10px;
   border-radius: 10px;
@@ -87,27 +87,33 @@ hr {
 }
 
 .c {
-  background-color: #84ffc9;
+  background-color: #4b504e;
+  /* background-color: #4b504e; */
   animation: c 1s linear forwards;
 }
 .html {
-  background-color: #84ffc9;
+  background-color: #4b504e;
+  /* background-color: #84ffc9; */
   animation: html 1s linear forwards;
 }
 .css {
-  background-color: #84ffc9;
+  background-color: #4b504e;
+  /* background-color: #84ffc9; */
   animation: css 1s linear forwards;
 }
 .python {
-  background-color: #84ffc9;
+  background-color: #4b504e;
+  /* background-color: #84ffc9; */
   animation: python 1s linear forwards;
 }
 .javascript {
-  background-color: #84ffc9;
+  background-color: #4b504e;
+  /* background-color: #84ffc9; */
   animation: javascript 1s linear forwards;
 }
 .react {
-  background-color: #84ffc9;
+  background-color: #4b504e;
+  /* background-color: #84ffc9; */
   animation: react 1s linear forwards;
 }
 
@@ -145,19 +151,23 @@ hr {
 /* language progress bar*/
 
 .english {
-  background-color: #84ffc9;
+  background-color: #4b504e;
+  /* background-color: #84ffc9; */
   animation: english 1s linear forwards;
 }
 .tamil {
-  background-color: #84ffc9;
+  background-color: #4b504e;
+  /* background-color: #84ffc9; */
   animation: tamil 1s linear forwards;
 }
 .hindi {
-  background-color: #84ffc9;
+  background-color: #4b504e;
+  /* background-color: #84ffc9; */
   animation: hindi 1s linear forwards;
 }
 .urdu {
-  background-color: #84ffc9;
+  background-color: #4b504e;
+  /* background-color: #84ffc9; */
   animation: urdu 1s linear forwards;
 }
 

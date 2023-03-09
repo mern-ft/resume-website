@@ -34,10 +34,19 @@ function App() {
           </div>
           <div className="info">
             <h1 className="name">
-              <BiRename /> :<span> SAGUL</span>
+              <div className="list-item">
+                <div className="list-item-name">
+                  <BiRename /> :<span> SAGUL</span>
+                </div>
+              </div>
             </h1>
+
             <h1 className="domain">
-              <GrDomain /> :<span> FRONT-END DEVELOPER</span>
+              <div className="list-item">
+                <div className="list-item-name">
+                  <GrDomain /> :<span> FRONT-END DEVELOPER</span>
+                </div>
+              </div>
             </h1>
           </div>
         </div>
