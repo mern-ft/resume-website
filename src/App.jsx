@@ -22,6 +22,7 @@ import {
   FaPython,
   FaCopyright,
 } from "react-icons/fa";
+import photo from "./img/pro.jpeg";
 
 function App() {
   return (
@@ -29,7 +30,7 @@ function App() {
       <div className="container">
         <div className="container1">
           <div className="title">
-            <img src="src/img/pro.jpeg" className="pic"></img>
+            <img src={photo} className="pic"></img>
           </div>
           <div className="info">
             <h1 className="name">
