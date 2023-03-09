@@ -2,7 +2,13 @@ import "./App.css";
 import { TbBrandVscode, TbBrandJavascript } from "react-icons/tb";
 import { SiAdobepremierepro, SiCanva } from "react-icons/si";
 import { RxFigmaLogo } from "react-icons/rx";
-import { GrLanguage, GrWorkshop, GrProjects, GrDomain } from "react-icons/gr";
+import {
+  GrLanguage,
+  GrWorkshop,
+  GrProjects,
+  GrDomain,
+  GrReactjs,
+} from "react-icons/gr";
 import { BsTools } from "react-icons/bs";
 import { GiSkills } from "react-icons/gi";
 import { BiBook, BiRename } from "react-icons/bi";
@@ -14,8 +20,8 @@ import {
   FaHtml5,
   FaCss3Alt,
   FaPython,
+  FaCopyright,
 } from "react-icons/fa";
-import { CgPacman } from "react-icons/cg";
 
 function App() {
   return (
@@ -30,7 +36,7 @@ function App() {
               <BiRename /> :<span> SAGUL</span>
             </h1>
             <h1 className="domain">
-                <GrDomain /> :<span> FRONT-END DEVELOPER</span>
+              <GrDomain /> :<span> FRONT-END DEVELOPER</span>
             </h1>
           </div>
         </div>
@@ -88,34 +94,65 @@ function App() {
           <div className="content">
             <ul>
               <li>
-                C <CgPacman />
+                <div className="list-item">
+                  <div className="list-item-name">
+                    C <FaCopyright />
+                  </div>
+                </div>
               </li>
               <div className="progress-bar">
                 <div className="c">{/* <span>60%</span> */}</div>
               </div>
               <li>
-                HTML <FaHtml5 />
+                <div className="list-item">
+                  <div className="list-item-name">
+                    HTML <FaHtml5 />
+                  </div>
+                </div>
               </li>
               <div className="progress-bar">
                 <div className="html">{/* <span>75%</span> */}</div>
               </div>
               <li>
-                CSS
-                <FaCss3Alt />
+                <div className="list-item">
+                  <div className="list-item-name">
+                    CSS
+                    <FaCss3Alt />
+                  </div>
+                </div>
               </li>
               <div className="progress-bar">
                 <div className="css">{/* <span>65%</span> */}</div>
               </div>
 
               <li>
-                Js <TbBrandJavascript />
+                <div className="list-item">
+                  <div className="list-item-name">
+                    JavaScript <TbBrandJavascript />
+                  </div>
+                </div>
               </li>
               <div className="progress-bar">
-                <div className="js">{/* <span>45%</span> */}</div>
+                <div className="javascript">{/* <span>45%</span> */}</div>
               </div>
 
               <li>
-                Python <FaPython />
+                <div className="list-item">
+                  <div className="list-item-name">
+                    React <GrReactjs />
+                  </div>
+                </div>
+              </li>
+              <div className="progress-bar">
+                <div className="react">{/* <span>45%</span> */}</div>
+              </div>
+
+              <li>
+                <div className="list-item">
+                  <div className="list-item-name">
+                    Python <FaPython />
+                  </div>
+                </div>
               </li>
               <div className="progress-bar">
                 <div className="python">{/* <span>45%</span> */}</div>
@@ -137,20 +174,36 @@ function App() {
           <div className="content">
             <ul>
               <li>
-                Figma
-                <RxFigmaLogo />
+                <div className="list-item">
+                  <div className="list-item-name">
+                    Figma
+                    <RxFigmaLogo />
+                  </div>
+                </div>
               </li>
               <li>
-                VsCode
-                <TbBrandVscode />
+                <div className="list-item">
+                  <div className="list-item-name">
+                    VsCode
+                    <TbBrandVscode />
+                  </div>
+                </div>
               </li>
               <li>
-                Premier Pro
-                <SiAdobepremierepro />
+                <div className="list-item">
+                  <div className="list-item-name">
+                    Premier Pro
+                    <SiAdobepremierepro />
+                  </div>
+                </div>
               </li>
               <li>
-                Canva
-                <SiCanva />
+                <div className="list-item">
+                  <div className="list-item-name">
+                    Canva
+                    <SiCanva />
+                  </div>
+                </div>
               </li>
             </ul>
           </div>
@@ -217,14 +270,29 @@ function App() {
           </h4>
           <ul>
             <li>
-              LinkedIn <FaLinkedin /> <span className="id"> @sagul </span>
+              <div className="list-item">
+                <div className="list-item-name">
+                  LinkedIn <FaLinkedin />
+                </div>
+                <div className="id"> @sagul </div>
+              </div>
             </li>
             <li>
-              Git-hub <FaGithub /> <span className="id"> @sagul-09 </span>
+              <div className="list-item">
+                <div className="list-item-name">
+                  Github <FaGithub />
+                </div>
+
+                <span className="id"> @sagul-09 </span>
+              </div>
             </li>
             <li>
-              Instagram <FaInstagram />{" "}
-              <span className="id"> @detail_snap_ </span>
+              <div className="list-item">
+                <div className="list-item-name">
+                  Instagram <FaInstagram />
+                </div>
+                <span className="id"> @detail_snap_ </span>
+              </div>
             </li>
           </ul>
         </div>

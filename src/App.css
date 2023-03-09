@@ -34,7 +34,6 @@
   color: azure;
 }
 
-
 hr {
   height: 2px;
   margin: 10px;
@@ -58,14 +57,12 @@ hr {
   background-color: #9ba0e9;
   border-radius: 20px;
   padding: 1rem;
-
 }
 
 .container1:hover {
-   box-shadow: 0 0 10px rgb(49, 51, 55);
-   transition: 0.5s;
+  box-shadow: 0 0 10px rgb(49, 51, 55);
+  transition: 0.5s;
 }
-
 
 .info {
   flex-direction: column;
@@ -104,9 +101,13 @@ hr {
   background-color: #84ffc9;
   animation: python 1s linear forwards;
 }
-.js {
+.javascript {
   background-color: #84ffc9;
-  animation: js 1s linear forwards;
+  animation: javascript 1s linear forwards;
+}
+.react {
+  background-color: #84ffc9;
+  animation: react 1s linear forwards;
 }
 
 @keyframes c {
@@ -129,9 +130,14 @@ hr {
     width: 40%;
   }
 }
-@keyframes js {
+@keyframes javascript {
   100% {
     width: 45%;
+  }
+}
+@keyframes react {
+  100% {
+    width: 30%;
   }
 }
 
@@ -139,21 +145,20 @@ hr {
 
 .english {
   background-color: #84ffc9;
-  animation: c 1s linear forwards;
+  animation: english 1s linear forwards;
 }
 .tamil {
   background-color: #84ffc9;
-  animation: html 1s linear forwards;
+  animation: tamil 1s linear forwards;
 }
 .hindi {
   background-color: #84ffc9;
-  animation: css 1s linear forwards;
+  animation: hindi 1s linear forwards;
 }
 .urdu {
   background-color: #84ffc9;
-  animation: python 1s linear forwards;
+  animation: urdu 1s linear forwards;
 }
-
 
 @keyframes english {
   100% {
@@ -176,8 +181,7 @@ hr {
   }
 }
 
-
-.bar-info{
+.bar-info {
   font-weight: 300;
 }
 
@@ -195,7 +199,7 @@ hr {
   gap: 5rem;
 }
 
-.id{
+.id {
   font-weight: 300;
   display: block;
 }
@@ -204,4 +208,17 @@ hr {
   .container {
     width: 100vw;
   }
+}
+
+.list-item {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  flex-direction: column;
+}
+
+.list-item-name {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
 }
