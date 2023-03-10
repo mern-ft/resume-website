@@ -2,6 +2,8 @@ import "./App.css";
 import { TbBrandVscode, TbBrandJavascript } from "react-icons/tb";
 import { SiAdobepremierepro, SiCanva } from "react-icons/si";
 import { RxFigmaLogo } from "react-icons/rx";
+import { GoMailRead } from "react-icons/go";
+import { GrContactInfo } from "react-icons/gr";
 import {
   GrLanguage,
   GrWorkshop,
@@ -21,6 +23,7 @@ import {
   FaCss3Alt,
   FaPython,
   FaCopyright,
+  FaPhoneSquareAlt,
 } from "react-icons/fa";
 import photo from "./img/pro.jpeg";
 
@@ -302,6 +305,31 @@ function App() {
                   Instagram <FaInstagram />
                 </div>
                 <span className="id"> @detail_snap_ </span>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div className="container1">
+          <h4 className="title">
+            CONTACT <GrContactInfo /> :
+          </h4>
+          <ul>
+            <li>
+              <div className="list-item">
+                <div className="list-item-name">
+                  Mail <GoMailRead />
+                </div>
+                <div className="id"> sagul2001@gmail.com </div>
+              </div>
+            </li>
+            <li>
+              <div className="list-item">
+                <div className="list-item-name">
+                  Number <FaPhoneSquareAlt />
+                </div>
+
+                <span className="id"> 8667202xx7 </span>
               </div>
             </li>
           </ul>
